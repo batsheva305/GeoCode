@@ -1,0 +1,35 @@
+/* You can add global styles to this file, and also import other style files */
+
+$regular-font: 'Open Sans Hebrew';
+$bold-font: 'Open Sans Hebrew Extra Bold';
+
+$regular-font-size: 18px;
+$small-font-size: 14px;
+$large-font-size: 22px;
+
+$color-pink:#E01E4C;
+$color-purple:#6C63FF;
+$color-dark-grey:#353535;
+$color-grey:#404040;
+$color-light-grey:#D9D9D9;
+$color-black:#000;
+
+body,
+div,
+label{
+  font-family: $regular-font;
+}
+
+button {
+    border: none;
+    outline: none;
+}
+
+@mixin bold{
+    font-family: $bold-font;
+}
+
+@mixin regular-font{
+  font-size: $regular-font-size;
+  color: white;
+}

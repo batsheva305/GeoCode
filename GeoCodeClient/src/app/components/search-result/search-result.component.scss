@@ -1,0 +1,38 @@
+@import "../../../styles.scss";
+
+.search-result{
+    height: 100vh;
+    background-color: $color-black;
+
+    button{
+        @include regular-font;
+        background-color: $color-purple;
+        border-radius: 4px;
+        height: 30px;
+        line-height: 40px;
+        width: 120px;
+        margin: 20px;
+      }
+
+    .regular-label{
+        @include regular-font;
+        float: right;
+    }
+
+    .bold-label{
+        @include regular-font;
+        @include bold;
+    }
+
+    .small-lable{
+        font-size: $small-font-size;
+        color: white;
+    }
+
+    .highlighted-label{
+        @include bold;
+        font-size: $large-font-size;
+        color: $color-purple;
+
+    }
+}

@@ -1,0 +1,32 @@
+@import "../../../styles.scss";
+
+.find-coordinate{
+  height: 100vh;
+
+  .address{
+    font-size: $small-font-size;
+    color: $color-light-grey;
+    float: right;
+  }
+
+  .separator{
+    color: $color-light-grey;
+  }
+
+  input{
+    border-color: $color-light-grey;
+    border-radius: 4px;
+    border-width: 1px;
+    height: 30px;
+    padding: 8px 0px;
+    font-size: $regular-font-size;
+  }
+
+  button{
+    @include regular-font;
+    background-color: $color-pink;
+    border-radius: 4px;
+    height: 30px;
+    line-height: 40px;
+  }
+}

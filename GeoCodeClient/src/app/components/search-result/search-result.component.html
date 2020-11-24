@@ -1,0 +1,36 @@
+<div class="search-result" fxLayoutAlign="space-between stretch" fxLayout="column" >
+
+  <button [routerLink]="'/search'" fxFlex="5">סיום</button>
+  <div fxFlex="10"></div>
+  <div fxFlex="50" fxLayout="row">
+    <div fxFlex="50"></div>
+    <div fxLayoutAlign="space-evenly stretch" fxLayout="column" fxFlex>
+      <div fxLayout="row" dir="rtl" fxLayoutAlign="space-between center">
+        <div class="regular-label">הקואורדינטות של הכתובת</div>
+        <div class="regular-label">|</div>
+        <div class="bold-label">{{coordinateResult?.addressString}}</div>
+      </div>
+      <div fxLayout="column">
+        <div class="small-lable" dir="rtl">קו רוחב</div>
+        <div class="highlighted-label" dir="rtl">{{coordinateResult?.latitude}}</div>
+      </div>
+      <div fxLayout="column">
+        <div class="small-lable" dir="rtl">קו אורך</div>
+        <div class="highlighted-label" dir="rtl">{{coordinateResult?.longitude}}</div>
+      </div>
+      <div fxLayout="row" dir="rtl" fxLayoutAlign="space-between center">
+        <div class="regular-label">החיפוש הפופולרי ביותר</div>
+        <div class="regular-label">|</div>
+        <div class="bold-label">{{popularSearchResult?.addressString}}</div>
+      </div>
+      <div fxLayout="row" dir="rtl" fxLayoutAlign="start center">
+        <div class="highlighted-label">{{popularSearchResult?.numberOfHits}}</div>
+        <div fxFlex="5"></div>
+        <div class="small-lable">בקשות</div>
+      </div>
+
+    </div>
+    <div fxFlex="30"></div>
+  </div>
+  <div fxFlex></div>
+  </div>

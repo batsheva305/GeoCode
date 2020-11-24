@@ -1,0 +1,10 @@
+<div class="find-coordinate" fxLayoutAlign="center center">
+  <div fxLayout="column" fxLayoutAlign="space-between center" fxFlex="25" fxLayoutGap="30px">
+    <div fxFill>
+      <div class="address">כתובת</div>
+      <input type="text" #address fxFill>
+    </div>
+    <div class="separator">----------------------------------</div>
+    <button (click)="findCoordinate(address.value)" fxFill>הצג את הקואורדינטות</button>
+  </div>
+</div>
