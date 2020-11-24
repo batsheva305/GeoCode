@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "1yp3PGY5JJfQeczkJqvoM1HD3XGJHo02aW0FGIlvcxX8K6/1D7GmN0VBMGOENM2SKCnorGO1tMJo+Nl1b5D6bg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kampinsk\\Desktop\\GeoCode_Project\\GeoCode\\GeoCode.Models\\GeoCode.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kampinsk\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.0\\microsoft.entityframeworkcore.abstractions.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
